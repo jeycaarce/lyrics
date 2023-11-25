@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+
+body {
+    background-image: url('video.gif');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text h1 {
+    margin: -10%;
+    font-size: clamp(40px, 60vw, 60px);
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    
+}
